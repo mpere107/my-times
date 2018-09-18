@@ -1,0 +1,34 @@
+/* Header */
+.header-nav {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+
+.nav {
+  display: inline-flex; /* I assume you can use the non-flex 'display: inline-block' property as an alternative.*/
+  width: 1100px;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav span {
+  margin-left: 20px;
+}
+
+a:link {
+  color: black;
+}
+/* Header END*/
